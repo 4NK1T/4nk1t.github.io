@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/fa62c117c7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Portfolio</title>
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://github.com/4nk1t" class="link">4nk1t</a>
+      </h3>
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#certifications">Certifications</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+        <button type="button" aria-label="toggle navigation" class="btn btn--icon nav__hamburger">
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Ankit Pandey.</span>
+        </h1>
+        <h2 class="about__role">Just Another Security Guy.</h2>
+        <p class="about__desc"> Hey there! I'm a self-taught web application hacker who loves breaking things and automating solutions. I've been working as an independent security researcher and bug bounty hunter since 2016, finding vulnerabilities for a range of companies. </p>
+        <div class="about__contact center">
+          <a href="https://github.com/4nk1t">
+            <span class="btn btn--outline">Resume</span>
+          </a>
+          <a href="https://github.com/4nk1t" aria-label="github" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/4nk1t" aria-label="linkedin" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <!-- Certifications -->
+      <section id="certifications" class="section projects">
+        <h2 class="section__title">Certifications</h2>
+        <div class="projects__grid">
+          <div class="project">
+            <h3>eCPPTv2</h3>
+            <p class="project__description"> The ecpptv2 certification evaluates the knowledge of penetration testing methodologies, techniques, and tools. It demonstrates proficiency in finding and exploiting vulnerabilities in web applications, networks, and operating systems </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Pentesting</li>
+              <li class="project__stack-item">Network Security</li>
+              <li class="project__stack-item">Buffer Overflow</li>
+              <!-- <li class="project__stack-item">React</li> -->
+            </ul>
+            <a href="https://elearnsecurity.com/product/ecpptv2-certification/" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>eWPTXv2</h3>
+            <p class="project__description"> The eLearnSecurity eWPTXv2 certification is an advanced-level program that tests expert-level web application pentesting skills. The exam requires students to perform a complete penetration test, and submit a comprehensive report of their findings to pass. </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Web Application Pentesting</li>
+              <li class="project__stack-item">Advance Exploitation</li>
+              <li class="project__stack-item">OWASP TOP 10</li>
+            </ul>
+            <a href="https://elearnsecurity.com/product/ewptxv2-certification/" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>eCPTXv2</h3>
+            <p class="project__description"> The eCPTX is eLearnSecurity's most advanced penetration testing certification that demonstrates expertise in network security. This certification validates expert-level knowledge and skills in penetration testing. This certification validates your expertise in conducting complex and sophisticated penetration tests. </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Windows Exploitation</li>
+              <li class="project__stack-item">Active Directory</li>
+              <li class="project__stack-item"></li>
+            </ul>
+            <a href="https://elearnsecurity.com/product/ecptx-certification/" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+          <div class="project">
+            <h3>C|EH Practical</h3>
+            <p class="project__description"> The C|EH Practical certification from EC-Council validates your knowledge and skills in identifying and exploiting vulnerabilities in computer systems and networks using the same tools and techniques as malicious hackers. It is highly regarded in the cybersecurity industry and is often a requirement for security-related jobs. </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Network Security</li>
+              <li class="project__stack-item">Linux Security</li>
+              <li class="project__stack-item"></li>
+            </ul>
+            <a href="https://www.eccouncil.org/train-certify/certified-ethical-hacker-ceh-practical/" aria-label="live preview" class="link link--icon">
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- Blogpost -->
+      <section id="Blogpost" class="section Blogpost">
+        <h2 class="section__title">Blogpost</h2>
+        <div class="Blogpost__grid">
+          <div class="Blogpost" , style="text-align:center;">
+            <h3>Exploiting SSTI to Execute Arbitrary Code On Server</h3>
+            <p class="Blogpost__description">
+              <br> Server-Side Template Injection (SSTI) is a type of vulnerability that occurs when untrusted user input is processed by a web application's template engine. This can allow attackers to execute arbitrary code or gain access to sensitive information. The vulnerability occurs in template engines that allow arbitrary code execution within templates. Popular template engines like Jinja2, Twig, and Freemarker have been found to be vulnerable to SSTI. In the blog post, we will explore the concept of SSTI, how it works, and which templates are vulnerable. We will also discuss the impact of SSTI vulnerabilities and provide recommendations for preventing and mitigating them. <br>
+              <br>
+            </p>
+            <div style="text-align:center;">
+              <a href="https://www.signzy.com/exploiting-ssti-to-execute-arbitrary-code-on-server/" aria-label="live preview" class="link link--icon">
+                <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+        <div class="projects__grid">
+          <div class="project">
+            <h3>TamperScripts</h3>
+            <p class="project__description"> A collection of custom SQLmap tamper scripts, designed to evade simple signature-based and pattern-based detection mechanisms. </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">python</li>
+              <li class="project__stack-item">sqlmap</li>
+              <!-- <li class="project__stack-item">React</li> -->
+            </ul>
+            <a href="https://github.com/4NK1T/TamperScripts" aria-label="source code" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+          </div>
+          <div class="project">
+            <h3>Sharewifi</h3>
+            <p class="project__description"> Generates a QR code containing the WiFi network name and password for the currently connected network on Windows and Unix-based operating systems. </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">python</li>
+              
+            </ul>
+            <a href="https://github.com/4nk1t/sharewifi" aria-label="source code" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+
+          </div>
+          <div class="project">
+            <h3>Newman Redact</h3>
+            <p class="project__description"> This script prevents the exposure of pre-production and production credentials and other PII (personally identifiable information) to unauthorized personnel. </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">python</li>
+            </ul>
+            <a href="https://github.com/4nk1t/newman" aria-label="source code" class="link link--icon">
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Vulnerability Assessment</li>
+          <li class="skills__list-item btn btn--plain">Penetration Testing</li>
+          <li class="skills__list-item btn btn--plain">Android Applications</li>
+          <li class="skills__list-item btn btn--plain">Web Application Security</li>
+          <li class="skills__list-item btn btn--plain">Secure Code Review</li>
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Bash</li>
+          <li class="skills__list-item btn btn--plain">Linux Security</li>
+          <li class="skills__list-item btn btn--plain">Cloud Security</li>
+          <li class="skills__list-item btn btn--plain">Endpoint Security</li>
+          <li class="skills__list-item btn btn--plain">Data Loss Prevention</li>
+
+        </ul>
+      </section>
+      <!-- Contact -->
+      <section class="section contact center" id="contact">
+        <h2 class="section__title">Contact</h2>
+        <a href="mailto:pandeyashu119@gmail.com">
+          <span class="btn btn--outline">Email me</span>
+        </a>
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="https://github.com/4nk1t" class="link footer__link"> Bye -4nk1t </a>
+    </footer>
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
